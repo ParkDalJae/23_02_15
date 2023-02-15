@@ -1,6 +1,7 @@
 *{
-  margin: 0px;
+  margin: 10px;
   box-sizing: border-box;
+  font-size: 100px;
 }
 
 .tot{
@@ -14,8 +15,16 @@
   line-height: 85px;
   display: flex;
   position: relative;
-  font-size: 100px;
+  /* font-size: 100rem; */
   font-family: 'Inter', sans-serif;
+}
+.tot>div>div{
+  /* line-height: 85px; */
+  /* display: flex; */
+  position: relative;
+  /* font-size: 100rem; */
+  font-family: 'Inter', sans-serif;
+
 }
 
 .line_sp{
@@ -25,11 +34,49 @@
 .font_g{
   /* color: #585858; */
   color: #c9c9c9;
-  
+    
 }
 
 .font_b{
   /* top:-50px; */
   left: 1210px;
   color: #0f0f0f;
+}
+
+.test{
+  /* top:50px; */
+}
+
+.test2{
+  /* bottom:50px; */
+}
+.joy{
+  margin-top: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.joy>div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  font-size: 50px;
+  width: 100px;
+  height: 100px;
+  background-color: aqua;
+}
+.left:hover~.right{
+  color: violet;
+}
+.left:hover~.font_b{
+  color: violet;
+}
+.left:active~.right{
+  background-color: #c9c9c9;
+  
+}
+.right:active~.font_b{
+  
 }
