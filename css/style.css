@@ -13,20 +13,23 @@
 .tot>div{
   line-height: 85px;
   display: flex;
-  /* position: relative; */
+  position: relative;
   font-size: 100px;
   font-family: 'Inter', sans-serif;
-
 }
 
 .line_sp{
-  
+  top: 0px;
 }
 
 .font_g{
-  color: #585858;
+  /* color: #585858; */
+  color: #c9c9c9;
+  
 }
 
 .font_b{
+  /* top:-50px; */
+  left: 1210px;
   color: #0f0f0f;
 }
