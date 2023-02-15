@@ -1,0 +1,32 @@
+*{
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.tot{
+  display: flex;
+  flex-direction: column;
+  /* align-items: baseline;
+  justify-content: baseline; */
+}
+
+.tot>div{
+  line-height: 85px;
+  display: flex;
+  /* position: relative; */
+  font-size: 100px;
+  font-family: 'Inter', sans-serif;
+
+}
+
+.line_sp{
+  
+}
+
+.font_g{
+  color: #585858;
+}
+
+.font_b{
+  color: #0f0f0f;
+}
